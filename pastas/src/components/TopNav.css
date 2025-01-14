@@ -1,7 +1,9 @@
 .navBar {
     background: #f2f2f2;
-    box-shadow: 1px 1px 4px #001010;
+    box-shadow: 6px 4px 12px #001010;
     position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .logo {
@@ -56,6 +58,7 @@
     color: #007b7f;
     height: 37px;
     width: 95px;
+    margin-left: 10px;
 }
 
 #btn-register:hover {

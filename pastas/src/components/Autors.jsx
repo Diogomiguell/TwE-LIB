@@ -2,7 +2,10 @@ import React from 'react';
 
 const Autors = () => {
   return (
-    <div>Autors</div>
+    <>
+      <title>TwE-LIB | Autores</title>
+      <div>Autors</div>/
+    </>
   );
 }
 

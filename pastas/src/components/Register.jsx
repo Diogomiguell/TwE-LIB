@@ -2,7 +2,14 @@ import React from 'react';
 
 const Register = () => {
   return (
-    <div>Register</div>
+    <>
+      <title>TwE-LIB | Página de Cadastro</title>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <p>oi</p>
+    </>
   );
 }
 

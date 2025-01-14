@@ -2,7 +2,9 @@ import React from 'react'
 
 const Read = () => {
   return (
-    <div>Ler</div>
+    <>
+      <title>TwE-LIB | Ler Livros</title> 
+    </>
   );
 }
 

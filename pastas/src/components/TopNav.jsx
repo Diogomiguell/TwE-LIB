@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar, Nav, Container, Form, FormControl, Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import './TopNav.css';
 import { FaSearch } from "react-icons/fa";
@@ -25,9 +24,14 @@ const TopNav = () => {
                     { /*Links de Navegação*/ }
                     <Nav className="me-auto">
                         <Nav.Link className='navBar-links' as={Link} to="/read">Ler</Nav.Link>
-                        <Nav.Link className='navBar-links' as={Link} to="/make"></Nav.Link>
+                        <Nav.Link className='navBar-links' as={Link} to="/make">Criar</Nav.Link>
                         <Nav.Link className='navBar-links' as={Link} to="/autors">Autores</Nav.Link>
-                        <Nav.Link className='navBar-links' as={Link} to="/about">Sobre Nós</Nav.Link>
+                        <Nav.Link className='navBar-links' 
+                                  href="https://instagram.com/twe_lib" 
+                                  target="_blank" 
+                                  rel="noopener noreferrer">
+                            Sobre Nós
+                        </Nav.Link>
                     </Nav>
 
                     { /*Barra de Pesquisa*/ }
@@ -46,7 +50,7 @@ const TopNav = () => {
                     </Form>
 
                         <Button id="btn-login" as={Link} to="/login">Entrar</Button>
-                        <Button id="btn-register" as={Link} to="/register" style={{ marginLeft: '10px' }}>Cadastrar</Button>
+                        <Button id="btn-register" as={Link} to="/register">Cadastrar</Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
